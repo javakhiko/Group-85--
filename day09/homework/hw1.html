@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) ჩამოწერეთ დღეს ნასწავლი თითოეული input ტეგი და განმარტეთ როდის და რისთვის გამოიყენება
+2) ახსენით რა დანიშნულება აქვს label ტეგს
+3) როგორ უნდა დავაკავშიროთ input და label ტეგები ერთმანეთთან
+4) ააგეთ მარტივი ფორმა სადაც მომხმარებელს მოთხოვთ სახელსა და გვარს + submit ღილაკი
+5) ააგეთ ფორმა რეგისტრაციის ფორმა(მინიმუმ უნდა ქონდეს: სახელი, გვარი, ელფოსტა, ასაკი, პაროლი)
+6) ააგეთ ვებსატი თავისუფალ თემაზე სადაც გამოიყენებთ განვლილი მასალიდან ყველა ტეგს და ასევე დღეს ნასწავლ ფორმებს(input ები და label) -->
+
+<!-- 1)
+<br>
+<form></form>
+<label></label> -->
+
+<!-- 2) label უწერს სახელს ინფუთის გვერძე 
+აიდის ჩაწერის შემდეგ კი ამ სახელზე დაწერის შემდეგ შეგვეძლება
+ინფუთის ბოქსში კონტენტის ჩაწერა -->
+
+<!-- 3) label-ის input-თან დასაკავშირებლად 
+ჩვენ უნდა ჩავწეროთ label-ის ატრიბუტში id-ში აიდის ინფუთის ჩაწერა -->
+
+<h3>4) ააგეთ მარტივი ფორმა სადაც მომხმარებელს მოთხოვთ სახელსა და გვარს + submit ღილაკი</h3>
+
+<form>
+    <label for="name">Enter Your Name</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="sur">Enter Your Surname</label>
+    <input type="text" id="sur">
+    <br>
+    <br>
+    <input type="submit">
+</form>
+
+<h3>5)ააგეთ ფორმა რეგისტრაციის ფორმა(მინიმუმ უნდა ქონდეს: სახელი, გვარი, ელფოსტა, ასაკი, პაროლი)</h3>
+
+<form>
+    <label for="name1">Enter Your Name</label>
+    <input type="text" id="name1">
+    <br>
+    <br>
+    <label for="sur1">Enter Your Surname</label>
+    <input type="text" id="sur1">
+    <br>
+    <br>
+    <label for="email">Enter Your Email</label>
+    <input type="email" id="email">
+    <br>
+    <br>
+    <label for="age">Enter Your Age</label>
+    <input type="number" id="age">
+    <br>
+    <br>
+    <label for="pass">Enter Your Password</label>
+    <input type="password" id="pass">
+    <br>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
