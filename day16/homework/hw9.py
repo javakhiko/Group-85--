@@ -4,14 +4,14 @@
 print("########## CALCULATOR ##########")
 
 while True:
-    num1 = int(input('Enter First Number. Type "exit" to quit: '))
+    num1 = float(input('Enter First Number. Type "exit" to quit: '))
     operator = input('Enter Operator (+,-,/,*). (type "exit" to quit): ')
     
     if operator== "exit":
         print("Calculator Closed.")
         break
 
-    num2 = int(input('Enter Second Number: '))
+    num2 = float(input('Enter Second Number: '))
 
     if operator == '+':
         print('Result:', num1 + num2)
