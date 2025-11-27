@@ -4,7 +4,7 @@
 print("########## CALCULATOR ##########")
 
 while True:
-    num1 = float(input('Enter First Number. Type "exit" to quit: '))
+    num1 = float(input('Enter First Number: '))
     operator = input('Enter Operator (+,-,/,*). (type "exit" to quit): ')
     
     if operator== "exit":
