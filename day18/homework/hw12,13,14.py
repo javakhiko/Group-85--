@@ -22,5 +22,7 @@ all_names=[name1,name2,name3,name4,name5]
 # 14)შექმენი სია და შეინახე 3 ელემენტი --> მოიძიე ინფორმაცია და შეასრულე შემდეგი დავალება --> გამოიტანეთ სიის თითოეული ელემენტი ცალ ცალკე ---> "ინდექსები" - ს <---   გამოყენებით
 
 list1=['mevludi','vardo', 'shlapa', 'ma']
-x=list1.index('ma')
-print(x)
+print(list1[0])
+print(list1[1])
+print(list1[2])
+print(list1[3])
