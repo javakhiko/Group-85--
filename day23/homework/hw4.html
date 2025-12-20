@@ -6,35 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-   <table border="1">
-    <tr>
-      <th>Level1</th>
-      <th>Level2</th>
-      <th>Level3</th>
-      <th>Info</th>
-    </tr>
-    <tr>
-      
-    </tr>
-    <tr>
-      <td rowspan="4">System</td>
-      <td rowspan="2">System Apps</td>
-      <td>SystemEnv</td>
-      <td>App Test</td>
-    </tr>
-    <tr>
-      <td>SystemEnv2</td>
-      <td>App Test</td>
-    </tr>
-    <tr>
-      <td rowspan="2">System Memory</td>
-      <td>Memory Test</td>
-      <td>Memory Func</td>
-    </tr>
-    <tr>
-      <td>Apes Test</td>
-      <td>Apes Test</td>
-    </tr>
-  </table>
+   <table border="3">
+        <tr>
+            <th>Level1</th>
+            <th colspan="2">Level2</th>
+            <th colspan="2">Level3</th>
+            <th>Info</th>
+        </tr>
+        <tr>
+            <td rowspan="6">System</td>
+            <td colspan="2" rowspan="4">System Apps</td>
+            <td rowspan="3" colspan="2">SystemEnv</td>
+            <td>App Test</td>
+        </tr>
+        <tr>
+            <td>App Memory</td>
+        </tr>
+        <tr>
+            <td>App Test</td>
+        </tr>
+        <tr>
+            <td colspan="2">SystemEnv2</td>
+            <td>App Test</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">System Memory</td>
+            <td colspan="2" rowspan="2">Memory Test</td>
+            <td>Memory Func</td>
+        </tr>
+        <tr>
+            <td>Apes Test</td>
+        </tr>
+    </table>
 </body>
 </html>
