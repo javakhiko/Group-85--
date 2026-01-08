@@ -5,17 +5,11 @@
 list=[]
 while True:
     user_input = input("Enter number (type 'stop' to finish): ")
-    
-    if type(user_input)==int:
-        if int(user_input)<50:
-            list.insert(0,int(user_input))
-        elif int(user_input)>50:
-            list.append(int(user_input))
-    else:
-        if user_input== "stop":
-            break
-    
-    list.append(int(user_input))
-    
+    if user_input== "stop":
+        break
+    if int(user_input)<50:
+        list.insert(0,int(user_input))
+    elif int(user_input)>50:
+        list.append(int(user_input))
 
 print("Final list:", list)

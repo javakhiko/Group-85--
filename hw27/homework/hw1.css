@@ -1,0 +1,18 @@
+/* 1)HTML-ში იყოს ერთი h1 და  ერთი p ელემენტები.
+
+CSS-ში:
+h1 ტექსტი იყოს ლურჯი , ზომაში 50px , იყოს ცენტრში
+
+p ტექსტი იყოს ნაცრისფერი,ფონის ფერი ლურჯი , ბორდერი ყვითელი , განლაგება მარჯვნივ */
+
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: gray;
+    background-color: blue;
+    border: solid 1px yellow;
+    text-align: right;
+}
