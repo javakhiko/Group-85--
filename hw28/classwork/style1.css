@@ -1,0 +1,20 @@
+/* h1 და h3 ჰქონდეთ ერთი და იგივე ფერი და 
+ბექკრაუნდ ფერი, პარაგრაფი იყოს განსხვავეებული ფერი, button ჰქონდეს სიგრძე და სიგანე 77 პიქსელი და ასევერ წითელი
+ბორდერი */
+
+h1{
+    color: blue;
+    background: red;
+}
+h3{
+    color: blue;
+    background: red;
+}
+p{
+    color: red;
+}
+button{
+    width: 77px;
+    height: 77px;
+    border: 4px red solid;
+}
