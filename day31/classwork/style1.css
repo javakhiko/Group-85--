@@ -1,0 +1,16 @@
+/* <!-- პირველი სიის ელემენტების სტილები იყოს ფერი წითელი , ზომა 30px , უაკნა ფონის ფერი მწვანე , ბორდერი - 2px ისასმნისფერი ფერის-->  */
+div ol li{
+    color: red;
+    font-size: 30px;
+    background-color: green;
+    border: solid 2px violet;
+}
+
+/* <!-- მეორე სიის ელემენტების სტილები იყოს --><!-- ფერი ლურჯი  , ზომა 20px  , უკანა ფონის ფერი ყვითელი , ბორდერი 4px შავი ფერის --> */
+
+nav ol li{
+    color: blue;
+    font-size: 20px;
+    background-color: yellow;
+    border: black solid 4px;
+}

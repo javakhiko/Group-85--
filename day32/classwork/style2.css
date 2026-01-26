@@ -1,0 +1,25 @@
+/* პირველ 4 პარაგრაფს ქონდეს შემდეგი სტილები ==> ფერი წითელი ზომა 20px, უკანა ფონის ფერი იასამნისფერი
+
+შემდეგ 4 პარაგრაფს ქონდეს შემდეგი სტილები ==> ფერი ლურჯი , ზომა 50px ,უნა აკფონის ფერი ყვითელი
+
+შემდეგ 4 პარაგრაფს ქონდეს შემდეგი სტილები ==> ფერი ვარდისფერი , ზომა 30px , უკანა ფონის ფერი მწვანე
+მაგრამ 12 ივე პარაგრაფს უნდა ქონდეს border 2პხ solid მუქი წითელი ფერის, გამოიყენეთ მხოლოდ class ატრიბუტი  */
+
+.same{
+    border: solid 2px darkred;
+}
+.first_four{
+    color: red;
+    font-size: 20px;
+    background-color: violet;
+}
+.second_four{
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}
+.third_four{
+    color: pink;
+    font-size: 30px;
+    background-color: green;
+}

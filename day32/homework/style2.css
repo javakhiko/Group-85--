@@ -1,0 +1,10 @@
+/* ფონი
+
+ტექსტის ფერი
+
+უკანა ფონის ფერი და სხვა */
+#onediv{
+    color: blue;
+    background: red;
+    font-size: 20px;
+}

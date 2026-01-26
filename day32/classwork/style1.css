@@ -1,0 +1,29 @@
+/* თქვენი დავალებაა რომ მისცე თთოეულ ელემენტს განსხვავებული id ატრიბუტები და 5 ივე ელემენტის ფერი და ზომა გახადეტ განსხვავებული
+გამოიყენეთ id და external css */
+
+#Title_first{
+    color: blue;
+    font-size: 20px;
+}
+#Title_second{
+    color: red;
+    font-size: 10px;
+}
+
+#paragraph_first{
+    color: chocolate;
+    font-size: 5px;
+}
+
+#paragraph_second{
+    color: blueviolet;
+    font-size: 15px;
+}
+
+#paragraph_third{
+    color: darkblue;
+    font-size: 30px;
+}
+
+
+
