@@ -1,0 +1,21 @@
+/* პირველს მიეცით #FF0000
+
+მეორეს  #00FF00
+
+მესამეს #0000FF
+
+გამოიყენე clas selector ელემენტების გასასტილად */
+
+div{
+    width: 200px;
+    height: 200px;
+}
+.a{
+    background-color: #FF0000;
+}
+.b{
+    background-color: #00FF00;
+}
+.c{
+    background-color: #0000FF;
+}

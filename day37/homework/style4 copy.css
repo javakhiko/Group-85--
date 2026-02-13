@@ -1,0 +1,21 @@
+/* პირველს მიეცით rgb(255, 0, 0)
+
+მეორეს rgb(0, 255, 0)
+
+მესამეს rgb(0, 0, 255)
+
+გამოიყენე id selector  ელემენტების გასასტილად */
+
+div{
+    width: 200px;
+    height: 200px;
+}
+#a{
+    background-color: rgb(255, 0, 0);
+}
+#b{
+    background-color: rgb(0, 255, 0);
+}
+#c{
+    background-color: rgb(0, 0, 255);
+}
