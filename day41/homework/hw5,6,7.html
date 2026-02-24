@@ -1,0 +1,51 @@
+<!-- 5)შექმენი img.
+
+მიეცი ზომები 100px x 100px
+hover-ზე:
+
+გაიზარდოს ზომაში და გახდეს სიგანეშიც და სიმაღლეშიც 200px 
+
+6)შექმენი button.
+active-ზე:
+
+background-color შეიცვალოს
+
+ტექსტის ფერი შეიცვალოს
+
+7)შექმენი ღილაკი.
+active-ზე:
+
+border გახდეს უფრო სქელი და წითელი ფერის-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img:hover{
+            width: 200px;
+            height: 200px;
+        }
+        .a:active{
+            background: red;
+            color: blue;
+        }
+        .b:active{
+            border: red solid 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Number 5 -->
+    <img src="./image.png" alt="image" width="100px" height="100px">
+
+    <!-- Number 6 -->
+    <button id="a"> Hello</button>
+
+    <!-- Number 7 -->
+    <button id="b">Hi</button>
+</body>
+</html>

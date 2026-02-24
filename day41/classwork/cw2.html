@@ -1,0 +1,45 @@
+<!-- 2)შექმენი ორი პარაგრაფი 
+
+პირველ პარაგრაფს მიანიჭეთ შემდეგი სტილები  ფერი მწვანე , ზომა 35px , სისქე 200
+
+:hover ზე პირველ პარაგრაფს მიენჭოს შემდეგი სტილები  ფერი წითელი , ზომა 50px  , სისქე 800
+
+მეორე პარაგრაფს მიანიჭეთ შემდეგი სტილები  ფერი იასამნისფერი , ზომა 15px , სისქე 300
+
+:active ზე მეორე პარაგრაფს მიენჭოს შემდეგი სტილები ფერი ყვითელი , ზომა 44px  , სისქე 900 , ასევე გაუჩნდეს ლურჯი ფერის ჩრდილი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a:hover{
+            color: red;
+            height: 50px;
+            width: 800px;
+        }
+        #a{
+            color: green;
+            height: 35px;
+            width: 200px;
+        }
+        #b{
+            color: purple;
+            height: 15px;
+            width: 300px;
+        }
+        #b:active{
+            color: yellow;
+            height: 40px;
+            width: 900px;
+            text-shadow: 0px 0px 2px blue;
+        }
+    </style>
+</head>
+<body>
+    <p id="a">Helo</p>
+    <p id="b">Helo</p>
+</body>
+</html>

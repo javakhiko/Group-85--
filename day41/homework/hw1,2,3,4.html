@@ -1,0 +1,83 @@
+<!-- 1)შექმენი ღილაკი, რომელსაც hover-ზე:
+
+background-color ეცვლება და ხდება ლურჯი
+
+ტექსტის ფერი იცვლება და ხდება წითელი
+
+2)შექმენი პარაგრაფი.
+hover-ზე:
+
+font-size გაიზარდოს
+
+ტექსტი გახდეს bold
+
+3)შექმენი div. მიეცი ზომები და წითელი ფერი
+hover-ზე:
+
+დაემატოს border რომელიც იქნება მწვანე ფერის 
+
+ასევე შეუცვალე უკანა ფონის ფერი და გახდეს ლურჯი
+
+4)შექმენი მანქანიების დალაგებული სია.
+
+hover-ზე თითოეულ li-ზე:
+
+background-color შეიცვალოს
+
+ტექსტი გახდეს uppercase
+
+შეეცვალოს კალიგრაფია(დააიმპორტეთ google font საიტიდან ------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL&family=Bitcount+Grid+Double:wght@100..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+        ol:hover{
+            background-color: blue;
+            text-transform: uppercase;
+            font-family: "Bitcount Grid Double", system-ui;
+        }
+        button:hover{
+            background-color: blue;
+            color: red;
+        }
+        p:hover{
+            font-size: larger;
+            font-weight: bold;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        div:hover{
+            border: solid green 10px;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Number 1 -->
+    <button>HEy</button>
+
+    <!-- Number 2 -->
+    <p>paragraph</p>
+
+    <!-- Number 3 -->
+    <div>
+
+    </div>
+    
+    <!-- Number 4 -->
+    <ol>
+        <li>BMW</li>
+        <li>Mercedes</li>
+        <li>Toyota</li>
+    </ol>
+</body>
+</html>
