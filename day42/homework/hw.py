@@ -12,6 +12,7 @@
 
 # def greet(name):
 #     return "Hello, "+ name +" how are you doing today?"
+#konkantinacia
 
 # codewars 4
 
