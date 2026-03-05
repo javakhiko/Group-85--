@@ -1,0 +1,26 @@
+/* თქბენი დავალებაა რომ ==>
+ის ელემენტები რომელსაც აქვს ატრიბუტი 
+type = "text" გასტილოთ შემდეგნაირად ==> უკანა ფონის ფერი წითელი,ტექსტი ლურჯი , მოურგვალეთ კუთხეები 10px ით
+ის ელემენტები რომელსაც აქვს არტიბუტი 
+type = "email" გასტილოთ შემდეგნაირად ==> უკანა ფონის ფერი სტაფილოსფერი , ტექსტი წითელი , outlin არ ქონდეს რო დააჭერთ ინფუთ ველს
+და ის ელემენტები რომელსაც აქვს ატრიბუტი 
+type = "password" გასტილეთ შემდეგნაირად ==> უკანა ფონის ფერი იასამნისფერი, ბორდერი 2px იანი წითელი , ტექსტის ფერი მწვანე , outline არ ქონდეს,კუთხეები მოამრგვალეთ 5px */
+
+input[type='text']{
+    background-color: red;
+    color: blue;
+    border-radius: 10px;
+}
+input[type='email']{
+    background-color: orange;
+    color: red;
+    border-radius: 10px;
+    outline: none;
+}
+input[type='password']{
+    background-color: purple;
+    border: solid 2px red;
+    color: green;
+    border-radius: 5px;
+    outline: none;
+}
