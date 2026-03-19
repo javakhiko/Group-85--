@@ -1,0 +1,37 @@
+<!-- 3)შექმენი კონტეინერი (width: 500px), შიგნით 3 ბლოკი.
+
+დავალება:
+
+გამოიყენე კუთვნილება რომელიც ამოძრავებს ელემენტებს x ღერძზე (გამოიყენე 3 ივე მათგანიდ ა გატესტე)
+
+დააკვირდი როგორ გადაადგილდება ელემენტები ჰორიზონტალურად -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 500px;
+            display: flex;
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            justify-content: flex-end;
+        }
+        .block {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.div1{
+    width: 700px;
+    height: 700px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
