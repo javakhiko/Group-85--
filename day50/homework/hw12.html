@@ -1,0 +1,37 @@
+<!-- 12)შექმენი 6 ბლოკი ერთ კონტეინერში, მაგრამ:
+
+კონტეინერს მიეცი პატარა სიგანე მაგ 300px
+
+გამოიყენე ისეთი მნიშვნელობა flex-wrap-ზე, რომ ელემენტები არ გადავიდნენ ახალ ხაზზე ანუ არ შეიფუთნონ მშობელ ელემენტი -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            flex-wrap: nowrap;
+            width: 300px;
+            border: 2px solid green;
+            padding: 100px;
+            gap: 10px;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!-- 4)ახსენით თუ რა კუთვნილებები 
+ვისწავლეთ flex თან დაკავშირებით x ღერძზე ელემენტების განლაგების დროს,განმარტე თითოეული მათგანი -->
+<!-- ჩვენ ვისწავლეთ gap რომელიც საშუალებას გვაძლევს ჩვენი ნება სურვილით შევცვალოთ დივების დაშორება
+        justify content space-evenly - ერთი და იგივე დაშორება დივებს შორის
+        justify content space-around - შვილ დივებს შორის იგივე მანძილი მშობელ ელემენტთან ნახევარი
+        justify content space between მშობელთან 0 დაშორება შვილებთან თანაბარი 
+-->
+<!-- 5)კომენტატის სახით ახსენით თუ რა არის gap  -->
+<!-- gap - შვილ დივებს შორის დაშორება -->
+<!-- 6)შექმენით მშობელი ელემენტი მიეცით ზომები და ფერი,შენი დავალებაა ამ მშობელ ელემენტშ ჩჩაამატო  
+4 ფოტო რომლებიც  განლაგებულნი იქნებიან ვერტიკალურად ,იქნებიან სრულიად მშობელი ელემენტის ცენტრში და 
+დააშორე ეს ფოტოები ერთმანეთს 40px ით -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            padding: 1%;
+            width: 60%;
+            height: 60%;
+            border: 2px solid red;
+            margin: 10%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+        }
+        img{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="">
+    </div>
+</body>
+</html>
