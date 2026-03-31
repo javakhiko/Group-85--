@@ -1,0 +1,45 @@
+<!-- 15)გაქვს navigation bar:
+
+logo
+menu  home, cottact , about us ...
+button
+
+გააკეთე ისე, რომ:
+
+პატარა ეკრანზე menu შემცირდეს
+მაგრამ logo და button მაქსიმალურად შენარჩუნდეს
+====================flex: grow shrink basis============= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+        }
+
+        .logo {
+            flex: 0 0 auto;
+        }
+
+        .menu {
+            flex: 1 1 auto;
+        }
+
+        .nav-btn {
+            flex: 0 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <div class="menu">
+            Home Contact About
+        </div>
+        <button class="nav-btn">Sign Up</button>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!-- 10)კომენტარის სახით ახსენით თუ რა არის flex-shrink ,რა მნშნველობები გადაეცემა მას და რა განსხვავებააა მათ შორის -->
+ <!-- flex-shrink განსაზღვრავს, თუ როგორ უნდა დაპატარავდეს ელემენტი -->
+  <!-- 11)გაქვს flex container (width: 400px) და 3 ელემენტი.
+
+თითოეულს აქვს flex-basis: 200px
+
+გააკეთე ისე, რომ:
+
+მხოლოდ მეორე ელემენტი არ შემცირდეს
+
+დანარჩენები კი შემცირდნენ ეკრანის დაპატარავებასთან ერთად -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            width: 400px;
+            border: 2px solid black;
+        }
+
+        .item {
+            flex-basis: 200px;
+            flex-shrink: 1;
+        }
+
+        .item-2 {
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item item-2">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>

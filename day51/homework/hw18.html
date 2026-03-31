@@ -1,0 +1,45 @@
+<!-- 18)გაქვს navigation:
+
+logo
+menu
+profile
+
+shorthand-ით გააკეთე:
+
+logo — ფიქსირებული ზომა
+profile — ფიქსირებული ზომა
+menu — adaptive (იზრდება და მცირდება) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            display: flex;
+        }
+
+        .logo {
+            width: 100px;
+            flex: 0 0;
+        }
+
+        .menu {
+            flex: 1 1;
+        }
+
+        .profile {
+            width: 80px;
+            flex: 0 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Logo</div>
+        <div class="menu">Menu Items</div>
+        <div class="profile">Profile</div>
+    </nav>
+</body>
+</html>

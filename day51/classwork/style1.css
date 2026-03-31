@@ -1,0 +1,17 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    border: solid 2px red;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.child{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+}
+
+#five{
+    align-self: end;
+}

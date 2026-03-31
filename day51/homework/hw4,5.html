@@ -1,0 +1,32 @@
+<!-- 4)კომენტარის სახით ახსენით თუ რა არის flex-grow და რას აკეთებს ის,ასევევე რა მნშვნელობები გადაეცემა მას -->
+ <!-- flex-grow ენიჭება რაიმე ელემენტს და ვუთითებთ 1-ს ის ავსებს ადგილს -->
+<!-- 5)გაქვს flex container და შიგნით 3 ელემენტი.
+
+ყველა ელემენტს აქვს საწყისი width (მაგ: 100px)
+გააკეთე ისე, რომ მეორე ელემენტმა დაიკავოს დანარჩენი თავისუფალი სივრცე
+
+გამოიყენე flex-grow -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child{
+            width: 100px;
+        }
+        .two{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="child"></div>
+        <div class="child two"></div>
+        <div class="child"></div>
+
+    </div>
+</body>
+</html>

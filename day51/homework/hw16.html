@@ -1,0 +1,33 @@
+<!-- 16)გაქვს 3 ელემენტი.
+
+დაწერე shorthand(შემოკლებულად) ისე, რომ:
+
+ყველა ელემენტი გაიზარდოს თანაბრად
+
+არ შემცირდნენ
+
+საწყისი ზომა იყოს 150px -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+        }
+
+        .item {
+            flex: 1 0 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>

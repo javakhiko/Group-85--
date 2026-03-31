@@ -1,0 +1,44 @@
+<!-- 7)გაქვს flex container 3 ელემენტით.
+
+სამივე ელემენტს hover გაუკეთეთ და შეუცვალეთ უკანა ფონის ფერი
+
+მაგრამ hover-ზე მესამე ელემენტი უნდა გაიზარდოს დანარჩენებზე მეტად და დაიკავოს დარჩენილი სივრცე -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            height: 100px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+        }
+
+        .box:hover {
+            background-color: #e8e8e8;
+        }
+
+        .box:last-child:hover {
+            flex-grow: 4;
+            background-color: #dcdcdc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+    </div>
+</body>
+</html>

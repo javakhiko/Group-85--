@@ -1,0 +1,48 @@
+<!-- 12)გაქვს 3 ელემენტი კონტეინერში 
+
+ყველას აქვს ერთნაირი flex-basis
+
+მაგრამ shrink მნიშვნელობები განსხვავებულია:
+პირველი: 1
+მეორე: 2
+მესამე: 3
+
+დააკვირდი როგორ განსხვავებულად მცირდება თითოეული  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-shrink {
+            display: flex;
+            width: 500px;
+        }
+
+        .container-shrink div {
+            flex-basis: 300px;
+        }
+
+        .s-1 {
+            flex-shrink: 1;
+        }
+
+        .s-2 {
+            flex-shrink: 2;
+        }
+
+        .s-3 {
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-shrink">
+        <div class="s-1">Shrink 1</div>
+        <div class="s-2">Shrink 2</div>
+        <div class="s-3">Shrink 3</div>
+    </div>
+</body>
+</html>
