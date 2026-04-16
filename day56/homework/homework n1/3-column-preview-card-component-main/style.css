@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 920px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card img {
+  width: 64px;
+  height: auto;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card h1 {
+  font-family: 'Big Shoulders Display';
+  color: hsl(0, 0%, 95%);
+  font-size: 40px;
+  margin: 35px 0;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  margin-bottom: 80px;
+  min-height: 150px;
+}
+
+.card button {
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.sedan button { 
+    color: hsl(31, 77%, 52%); 
+}
+.suv button { 
+    color: hsl(184, 100%, 22%); 
+}
+.luxury button { 
+    color: hsl(179, 100%, 13%); 
+}
+
+.card button:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #ffffff;
+  background-image: url('image_3de345.png'), url('image_3de348.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.main-wrapper {
+  width: 1110px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.text-content {
+  width: 450px;
+}
+
+.text-content h1 {
+  color: #502050;
+  font-size: 56px;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+.text-content p {
+  color: #937b92;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+.ratings {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-box {
+  background-color: #f7f2f7;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 445px;
+  margin-bottom: 16px;
+}
+
+.rating-box span {
+  color: #502050;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.stars img {
+  width: 17px;
+  margin-right: 8px;
+}
+
+.box-1 { align-self: flex-start; }
+.box-2 { align-self: center; }
+.box-3 { align-self: flex-end; }
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.card {
+  background-color: #502050;
+  color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 350px;
+  height: 234px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.profile img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 23px;
+}
+
+.profile-text strong {
+  display: block;
+  font-size: 17px;
+}
+
+.profile-text .status {
+  color: #ee68a4;
+  font-size: 17px;
+}
+
+.card p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.card-1 { align-self: flex-start; }
+.card-2 { align-self: center; }
+.card-3 { align-self: flex-end; }

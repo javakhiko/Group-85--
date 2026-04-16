@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: hsl(221, 100%, 96%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 736px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 32px;
+  box-shadow: 20px 20px 60px hsla(224, 30%, 27%, 0.1);
+  overflow: hidden;
+}
+
+.result-side {
+  flex: 1;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  padding: 40px 54px;
+  border-radius: 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-side h2 {
+  color: hsl(241, 100%, 89%);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.score-circle {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.score-circle h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 72px;
+  line-height: 1;
+}
+
+.score-circle p {
+  color: hsla(241, 100%, 89%, 0.5);
+  font-weight: 700;
+}
+
+.result-side h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.result-side .description {
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+}
+
+.summary-side {
+  flex: 1;
+  padding: 40px;
+}
+
+.summary-side h2 {
+  color: hsl(224, 30%, 27%);
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.summary-item .score {
+  color: hsl(224, 30%, 27%);
+  opacity: 0.5;
+}
+
+.summary-item .score strong {
+  opacity: 1;
+  color: hsl(224, 30%, 27%);
+}
+
+.reaction { 
+    background-color: hsla(0, 100%, 67%, 0.1); color: hsl(0, 100%, 67%); 
+}
+.memory { 
+    background-color: hsla(39, 100%, 56%, 0.1); color: hsl(39, 100%, 56%); 
+}
+.verbal { 
+    background-color: hsla(166, 100%, 37%, 0.1); color: hsl(166, 100%, 37%); 
+}
+.visual { 
+    background-color: hsla(234, 85%, 45%, 0.1); color: hsl(234, 85%, 45%); 
+}
+
+button {
+  width: 100%;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 16px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
