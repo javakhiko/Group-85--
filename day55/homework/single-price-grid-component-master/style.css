@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card {
+  max-width: 640px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+}
+section {
+  padding: 40px;
+}
+.top-section {
+  grid-column: 1 / span 2;
+}
+
+.top-section h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 24px;
+}
+
+.top-section h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.top-section p {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+
+
+.subscription-section {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.subscription-section h3, 
+.features-section h3 {
+  font-size: 17.6px;
+  margin-bottom: 18px;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.per-month {
+  opacity: 0.6;
+}
+.subscription-section p {
+  margin-bottom: 26px;
+}
+.signup-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s;
+}
+.features-section {
+  background-color: hsla(179, 62%, 43%, 0.8);
+  color: white;
+}
+.features-section ul {
+  list-style: none;
+}
+.features-section li {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}

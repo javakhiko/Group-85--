@@ -67,6 +67,7 @@ body {
   border-radius: 25px;
   cursor: pointer;
   margin-top: auto;
+  width: 150px;
 }
 
 .sedan button { 
