@@ -1,0 +1,50 @@
+<!-- 1)კომენტარის სახით ახსენით დღეს ნასწავლი სამივე პოზიციის კუთვნილება და დეტალიურად ახსენით რა ხდება თითოეულის გამოყენების დროს
+position არის სტილი რისი გამოყენებიდაც შეგვიძლია კონტენტის პოზიციის შეცვლა და გადაეცემა 4 მნიშვნელობა:
+left-მარცხნიდან მარჯვნივ right - მარჯვნიდან მარცხნივ top-ზევიდან ქვემოთ bottom-ქვევიდან ზევით
+relative - იწყებს იმ პოზიციიდან მოზრაობას
+absolute- ამოვარდება კონტენტი განლაგებიდან
+
+2)გაქვს 3 ბლოკი:
+
+<div class="box red"></div>
+<div class="box green"></div>
+<div class="box blue"></div>
+დავალება:
+
+ყველა იყოს რიგში(row) 
+მწვანე დივვი გადაადგილე:
+მარჯვნივ 30px
+ქვემოთ 20px
+ისე რომ არ ამოვარდეს განლაგებიდან და ქიდან დაიწყოს მოძრაობა სადაც ის არის -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            border: 2px solid red;
+        }
+        .green{
+            position: relative;
+            left: 30px;
+            top: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+</body>
+</html>

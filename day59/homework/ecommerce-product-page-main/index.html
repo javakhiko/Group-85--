@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers Product Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="nav-left">
+      <img src="logo.svg" alt="logo" class="logo">
+      <nav class="nav-links">
+        <a href="">Collections</a>
+        <a href="">Men</a>
+        <a href="">Women</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </nav>
+    </div>
+
+    <div class="nav-right">
+      <img src="icon-cart.svg" alt="cart" class="cart-icon">
+      <img src="image-avatar.png" alt="avatar" class="avatar">
+    </div>
+  </header>
+
+    <main>
+        <section class="gallery">
+            <div class="main-display">
+                <img src="./image-product-1.jpg" alt="Product Main Image" class="main-img">
+            </div>
+            <div class="thumbnails">
+                <div class="thumbn"><img src="./image-product-1-thumbnail.jpg" alt="Thumbnail 1"></div>
+                <div class="thumb"><img src="./image-product-2-thumbnail.jpg" alt="Thumbnail 2"></div>
+                <div class="thumb"><img src="./image-product-3-thumbnail.jpg" alt="Thumbnail 3"></div>
+                <div class="thumb"><img src="./image-product-4-thumbnail.jpg" alt="Thumbnail 4"></div>
+            </div>
+        </section>
+
+        <section class="product-info">
+            <p class="company-name">Sneaker Company</p>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p class="description">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+            </p>
+            
+            <div class="price-container">
+                <div class="current-price">
+                    <p class="price">$125.00</p>
+                    <p class="discount">50%</p>
+                </div>
+                <p class="old-price">$250.00</p>
+            </div>
+
+            <div class="actions">
+                <div class="counter">
+                    <button id="minus" type="button">−</button>
+                    <b id="count">0</b>
+                    <button id="plus" type="button">+</button>
+                </div>
+                <button class="add-btn" type="button">
+                  <img src="./icon-cart.svg" alt="">
+                    <b style="color: black;">Add to cart</b>
+                </button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

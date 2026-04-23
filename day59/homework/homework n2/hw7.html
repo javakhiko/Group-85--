@@ -1,0 +1,40 @@
+<!-- 7)შექმენით დივი სადაც იქნება მოთავსებული ერთი ფოტო რომელიც დაფარავს დივს და ერთი ტექსტი - For Sale, შენი დავალებაა რომ ფოტოს გადააფარო ზემოდან ეს ტექსტი და აიტანო დივის ზემოთ მარჯვენა კუთხეში  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 200px;
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="card">
+        <img src="image.png" alt="house">
+        <div class="badge">For Sale</div>
+    </div>
+    </body>
+ </html>

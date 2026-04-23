@@ -1,0 +1,61 @@
+<!-- 3)შექმენი 2 box:
+
+პირველი — ჩვეულებრივი (static)
+მეორე — relative
+
+relative box გადაადგილე მარცხნივ - 40px
+
+კითხვა:
+რა განსხვავებაა ამ ორს შორის ვიზუალურად და layout-ში?
+static - ეს არის default მდგომარეობა
+relative - შეგიძლია გადაადგილება top/left/right/bottom-ით და თავისი ადგილი layout-ში არ ქრება
+static - არ მოძრაობს
+relative - გადაადგილდება 40px-ით მარცხნივ
+
+3)მოცემულია -->
+<!-- <div class="parent">
+  <div class="child"></div>
+</div> -->
+
+
+<!-- დავალება:
+
+parent → 300x300
+child  → 100x100 ლურჯი ფერის , განათავსე ქვედა მშობლის მარცხენა კუთხეში
+
+მინიშნება:
+
+ერთს უნდა ჰქონდეს relative
+მეორეს absolute
+
+თუ არ გამოვა შეგიძლიათ მოიძიოთ თუ როგორ ვამოძრაოთ position ის მქონე მშობელ ელემენტში შვილი ელემენტები --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            position: relative;
+            
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="child"></div>
+    </div>
+</body>
+</html>

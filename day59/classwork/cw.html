@@ -1,0 +1,39 @@
+<!-- 1)შექმენი 4 ღილაკი.მიეცი სიგანე და სიმაღლე ყველასდა დააშორე ერთმანეთისგან
+
+პირველი ღილაკი ჩამოწიე ზემოდან ქვემოთ 100px ით და მარცხნიდან მარჯვნივ 30px ით
+
+მესამე ღილაკი ჩამოწიე ზემოდან ქვემოთ 30px ით და გაწიე მარჯვნიდან მარცხნვ 20პხ ით -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 100px;
+            height: 100px;
+        }
+        body{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #a{
+            position: relative;
+            top: 100px;
+            left: 30px;
+        }
+        #c{
+            position: relative;
+            top: 30px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="a">Click</button>
+    <button id="b">Click</button>
+    <button id="c">Click</button>
+    <button id="d">Click</button>
+</body>
+</html>
