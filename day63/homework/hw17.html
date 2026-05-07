@@ -1,0 +1,29 @@
+<!-- 17)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს
+მარცხნივ გადავიდეს
+ოდნავ მოტრიალდეს
+origin იყოს ქვედა მარჯვენა კუთხე -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            width: 150px;
+            height: 150px;
+            background: crimson;
+            transform-origin: bottom right;
+        }
+
+        .block:hover{
+            transform: scale(0.7) translateX(-40px) rotate(-10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+</body>
+</html>

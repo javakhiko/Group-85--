@@ -1,0 +1,42 @@
+<!-- 
+4)შექმენი div:
+
+სურათი იყოს ქვედა მარცხენა მხარეს
+
+გამეორდეს y ზე
+
+ზომა იყოს 80px
+
+ბოლოს - გამოიყენე shorthand იც -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+            background-position: left bottom;
+            background-repeat: repeat-y;
+        }
+
+        .box2 {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") left bottom / 80px repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <br>
+    <div class="box2"></div>
+
+</body>
+</html>

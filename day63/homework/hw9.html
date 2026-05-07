@@ -1,0 +1,23 @@
+<!-- 9)შექმენი div და hover-ზე გააკეთე: ორჯერ გაიზარდოს სიდიდეში მოტრიალდეს 30deg ით(სიბრტყეზე) ოდნავ გადავიდეს მარჯვნივ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background: blue;
+        }
+
+        .box:hover{
+            transform: scale(2) rotate(30deg) translateX(20px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

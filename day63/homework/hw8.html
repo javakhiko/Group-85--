@@ -1,0 +1,32 @@
+<!-- 8)შექმენი დივი რომელშიც ჩასვავ ბგ იმიჯს რომელიც არ მეორდება და არის ცენტრში და დაფარავს დივს , შიგნით ამ დივში ჩასვი კიდევ ერთი დივი და ამ დივსაც მიეცი სხვა bg იმიჯი,გასტილე როგორც გინდა -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            width: 600px;
+            height: 400px;
+            background: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200") center / cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .inner{
+            width: 200px;
+            height: 200px;
+            background: url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200") center / cover no-repeat;
+            border: 3px solid white;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+</body>
+</html>

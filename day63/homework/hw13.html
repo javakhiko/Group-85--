@@ -1,0 +1,29 @@
+<!-- 13)შექმენი card:
+
+hover-ზე:
+გაიზარდოს 1.5 ჯერ
+10deg-ით მოტრიალდეს
+ზემოთ აიწიოს  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 200px;
+            height: 250px;
+            background: #3498db;
+            margin: 100px;
+        }
+
+        .card:hover{
+            transform: scale(1.5) rotate(10deg) translateY(-20px);
+        }
+    </style>
+</head>
+<body>
+    <div class="card"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!-- 11)შექმენი კვადრატი:
+
+ნორმალურ მდგომარეობაში ცენტრში იყოს
+hover-ზე:
+ქვემოთ ჩავიდეს 50px ით
+
+გაიზარდოს ზომაში 3 ჯერ
+
+45 გრადუსით შემოტრიალდეს -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .square{
+            width: 100px;
+            height: 100px;
+            background: green;
+        }
+
+        .square:hover{
+            transform: translateY(50px) scale(3) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="square"></div>
+</body>
+</html>

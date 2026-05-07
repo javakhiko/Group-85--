@@ -1,0 +1,30 @@
+<!-- 10)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს ზომაში
+
+მარცხნივ გადავიდეს 
+
+ოდნავ დახრილი გახდეს 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            width: 150px;
+            height: 150px;
+            background: red;
+        }
+
+        .block:hover{
+            transform: scale(0.7) translateX(-30px) rotate(-10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+</body>
+</html>

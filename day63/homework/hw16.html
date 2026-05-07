@@ -1,0 +1,30 @@
+<!-- 16)
+შექმენი div და hover-ზე:
+
+გაიზარდოს 2 ჯერ
+20deg-ით მოტრიალდეს
+მარჯვნივ გადავიდეს
+ბრუნვის ცენტრი იყოს ზედა მარცხენა კუთხე -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            background: teal;
+            transform-origin: top left;
+        }
+
+        .box:hover{
+            transform: scale(2) rotate(20deg) translateX(50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
