@@ -1,0 +1,29 @@
+<!-- 2)შექმენი ღილაკი (button), რომელსაც hover-ზე: 
+ ტექსტის ფერი შეიცვალოს 0.2s border-radius გაიზარდოს 0.5s background შეიცვალოს 0.7s background-ის transition დაიწყოს 0.3s დაგვიანებით  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            transition: color 0.2s,border-radius 0.5s,backround-color 0.7s ease 0.3s;
+        }
+        button:hover{
+            color: red;
+            border-radius: 100px;
+            background-color: red;
+        }
+    </style>
+ </head>
+ <body>
+    <button>hover</button>
+ </body>
+ </html>

@@ -1,0 +1,28 @@
+<!-- 6)შექმენი box, რომელსაც :active დროს:
+scale შემცირდეს 0.15s
+rotate შესრულდეს 2.4s
+background-color შეიცვალოს 1.3s -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            transition: transform 0.15s ease, rotate 2.4s ease , background-color 1.3s ease;
+        }
+        div:active{
+            transform: scale(-1) rotate(70deg);
+            background-color: green;
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

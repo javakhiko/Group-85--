@@ -1,0 +1,25 @@
+<!-- 4)შექმენი ფოტო (img), რომელსაც hover-ზე:
+opacity შემცირდეს 0.5s
+scale გაიზარდოს 0.7s
+rotate შესრულდეს 1.2s
+rotate-ზე გამოიყენე 0.4s delay -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            transition: opacity 0.5s ease , transform 0.7s linear , rotate 1.2s 0.4s ease;
+        }
+        img:hover{
+            transform: scale(2) rotate(70deg);
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg" alt="">
+</body>
+</html>

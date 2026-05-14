@@ -1,0 +1,29 @@
+<!-- 7)შექმენი loading-style box, რომელსაც hover-ზე:
+rotate(360deg) შესრულდეს 1.5s
+border-radius გახდეს 50% 0.5s-ში
+background-color შეიცვალოს 0.4s -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+            background: black;
+            transition: transform 1.5s linear , border-radius 0.5s, background-color 0.4s ease;
+        }
+        div:hover{
+            transform: rotate(360deg);
+            border-radius: 50%;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
