@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px;
+}
+
+.balls {
+    position: relative;
+    display: flex;
+    gap: 25px;
+}
+
+.first-b{
+    background-color: red;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    animation: ball 1s ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+.second-b {
+    background-color: cyan;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    animation: ball 1s ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0.25s;
+}
+
+.third-b {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    animation: ball 1s ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+
+.square{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    animation: square 3s ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes square{
+    from{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        transform: rotate(45deg);
+    }
+    to{
+        opacity: 0%;
+    }
+}
+@keyframes ball {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(50%);
+    }
+    50% {
+      transform: translateY(70%);
+    }
+    75% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}

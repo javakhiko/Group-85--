@@ -16,7 +16,6 @@ body{
     background-image: url(./pattern-square.svg),url(./pattern-square.svg);
     background-repeat: no-repeat;
     background-position: 1780px 185px, -120px 950px;
-
 }
 
 .header{
@@ -184,7 +183,7 @@ h2{
     height: 65px;
     align-self: flex-start; 
     padding: 16px; 
-    object-fit: contain; 
+
 }
 
 .spec-box{
