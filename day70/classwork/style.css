@@ -28,5 +28,5 @@ div {
   0%   {background-color: red;}
   25%  {background-color: yellow;position: relative; top: 50px;}
   50%  {background-color: blue; border-radius: 20px; position: relative;left: 50px; transform: rotate(40deg);}
-  100% {background-color: orange; border-radius: 30px; border: solid red;}
+  0% {background-color: orange; border-radius: 30px; border: solid red;}
 }
