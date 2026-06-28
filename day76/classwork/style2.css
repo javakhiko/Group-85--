@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  width: 600px;
+  height: 600px;
+  border: solid red 2px;
+  display: grid;
+  grid-template-columns: 100px 500px;
+  grid-template-rows: 200px 400px;
+}
+
+#a{
+    background-color: yellow;
+}
+
+#b{
+    background-color: blue;
+}
+
+#c{
+    background-color: red;
+}
+
+#d{
+    background-color: green;
+}
