@@ -93,6 +93,10 @@ body {
     grid-row-end: 5;
 }
 
+body{
+    overflow: hidden;
+}
+
 #c{
     border-top: 4px #549EF2 solid;
     grid-column-start: 3;
@@ -125,4 +129,8 @@ body {
     opacity: 0.5;
 }
 
+.cards div img{
+    margin-top: 40px;
+    margin-left: 222px;
+}
 
