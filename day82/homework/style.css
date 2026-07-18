@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 27px 117px;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+
+    .a-wrap {
+      display: flex;
+      gap: 23px;
+    }
+
+    img {
+      width: 79px;
+      height: 25px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #1c1b1b;
+    font-weight: 700;
+  }
+
+  .icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+  #first-img {
+    width: 21px;
+    height: 20px;
+  }
+  #second-img {
+    width: 40px;
+    height: 40px;
+  }
+  #third-img {
+    width: 36px;
+    height: 42px;
+  }
+}
+
+section{
+  width: 100%;
+  background-color: #F0EFEB;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .shop-now{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  h1{
+    width: 60%;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 100%;
+  }
+  p{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    line-height: 100%;
+    width: 60%;
+  }
+  button{
+    background-color: #000000;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    height: 36px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 130px;
+  }
+  img{
+    width: 40%;
+  }
+}
+
+.ham-menu {
+  display: none;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 860px) {
+  header {
+    padding: 27px 50px;
+  }
+
+  section{
+    padding: 2px 50px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+    padding: 27px 25px;
+  }
+}
+
+@media (max-width: 661px) {
+  header nav .a-wrap {
+    display: none;
+  }
+  .ham-menu {
+    display: block;
+  }
+  header{
+    padding:  27px 20px;
+  }
+
+  section{
+  .shop-now{
+    gap: 10px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+  button{
+    font-size: 15px;
+  }
+}
+}
