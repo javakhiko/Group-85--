@@ -1,0 +1,61 @@
+/* 1)შექმენი div და გამოიყენე CSS ცვლადი, რომელიც განსაზღვრავს მის ფონის ფერს.
+
+პირობა:
+
+შექმენი --bg-color.
+div-ის background-color აიღე ამ ცვლადიდან
+
+2)შექმენი სათაური.
+
+პირობა:
+
+შექმენი:
+--text-color
+--text-size
+გამოიყენე ორივე h1-ზე.
+
+3)შექმენი ღილაკი.
+
+პირობა:
+
+გამოიყენე ცვლადები:
+--btn-color
+--btn-text
+--radius
+ღილაკმა ყველა ეს მნიშვნელობა ცვლადებიდან მიიღოს. */
+
+:root {
+  --bg-color: green;
+  --text-color: blue;
+  --text-size: 15px;
+  --btn-color: red;
+  --btn-text: 10px;
+  --radius: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#first-div {
+  height: 300px;
+  width: 300px;
+  background-color: var(--bg-color);
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: var(--text-size);
+}
+
+button {
+  background-color: var(--btn-color);
+  font-size: var(--btn-text);
+  border-radius: var(--radius);
+}

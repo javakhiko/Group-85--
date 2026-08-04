@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,9 @@
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -15,49 +19,51 @@ header {
   display: flex;
   padding: 27px 117px;
   justify-content: space-between;
+}
 
-  nav {
-    display: flex;
-    width: 1000px;
-    justify-content: space-between;
-    align-items: center;
+header nav {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    .a-wrap {
-      display: flex;
-      gap: 23px;
-    }
+header nav .a-wrap {
+  display: flex;
+  gap: 23px;
+}
 
-    img {
-      width: 79px;
-      height: 25px;
-    }
-  }
+header nav img {
+  width: 79px;
+  height: 25px;
+}
 
-  a {
-    text-decoration: none;
-    color: #1c1b1b;
-    font-weight: 700;
-  }
+header a {
+  text-decoration: none;
+  color: #1c1b1b;
+  font-weight: 700;
+}
 
-  .icons {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    padding-left: 50px;
-  }
+header .icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-left: 50px;
+}
 
-  #first-img {
-    width: 21px;
-    height: 20px;
-  }
-  #second-img {
-    width: 40px;
-    height: 40px;
-  }
-  #third-img {
-    width: 36px;
-    height: 42px;
-  }
+header #first-img {
+  width: 21px;
+  height: 20px;
+}
+
+header #second-img {
+  width: 40px;
+  height: 40px;
+}
+
+header #third-img {
+  width: 36px;
+  height: 42px;
 }
 
 section {
@@ -68,46 +74,51 @@ section {
   align-items: center;
   justify-content: space-around;
   padding: 0px 50px;
+}
 
-  .shop-now {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  img {
-    width: 25%;
-  }
-  h1 {
-    width: 60%;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 100%;
-  }
-  p {
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000;
-    line-height: 100%;
-    width: 60%;
-  }
-  button {
-    background-color: #000000;
-    color: white;
-    border-radius: 100px;
-    border: none;
-    height: 36px;
-    font-weight: 400;
-    font-size: 17px;
-    width: 130px;
-  }
+section .shop-now {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+section img {
+  width: 25%;
+}
+
+section h1 {
+  width: 60%;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+section p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  line-height: 100%;
+  width: 60%;
+}
+
+section button {
+  background-color: #000000;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  height: 36px;
+  font-weight: 400;
+  font-size: 17px;
+  width: 130px;
 }
 
 .ham-menu {
   display: none;
-  img {
-    width: 30px;
-    height: 30px;
-  }
+}
+
+.ham-menu img {
+  width: 30px;
+  height: 30px;
 }
 
 .hero-1 {
@@ -118,22 +129,24 @@ section {
   width: 100%;
   height: 1300px;
   gap: 72px;
-  h2 {
-    font-weight: 700;
-    font-size: 36px;
-  }
+}
 
-  .p-wrap {
-    display: flex;
-    flex-direction: column;
-    gap: 47px;
-    p {
-      width: 632px;
-      font-weight: 400;
-      font-size: 20px;
-      text-align: center;
-    }
-  }
+.hero-1 h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.hero-1 .p-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+
+.hero-1 .p-wrap p {
+  width: 632px;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
 
 .img-wrap {
@@ -142,40 +155,164 @@ section {
   gap: 65px;
   width: 100%;
   justify-content: center;
-  img {
-    width: 315px;
-    height: 430px;
+}
+
+.img-wrap img {
+  width: 315px;
+  height: 430px;
+}
+
+.img-wrap .content-wrap {
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-wrap .content-wrap h5 {
+  font-size: 17px;
+  font-weight: 700;
+  width: 156px;
+  text-align: center;
+}
+
+.img-wrap .content-wrap h6 {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.img-wrap .content-wrap a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.img-wrap .content-wrap .txt-wrap {
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  height: 1956px;
+}
+
+article div {
+  width: 100%;
+  height: 652px;
+  background-color: #cccccc4d;
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-wrap {
+  padding-top: 20px;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  height: 467px;
+  background-color: transparent;
+}
+
+.art-wrap-2 {
+  width: 50%;
+  align-items: end;
+  text-align: right;
+}
+
+#spec {
+  flex-direction: row-reverse;
+  background-color: #cccccc99;
+}
+
+.art-wrap h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.art-wrap p {
+  width: 100%;
+  font-weight: 400;
+  font-size: 36px;
+  color: #000000;
+  line-height: 100%;
+}
+
+.art-wrap a {
+  font-weight: 700;
+  font-size: 17px;
+  color: #000000;
+  line-height: 100%;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 190px 0px 51px 0px;
+}
+
+.features{
+  display: grid;
+  grid-template-rows: 84px repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  border: 1px solid red;
+  width: 67%;
+  min-height: 709px;
+  justify-items: center;
+  align-items: center;
+}
+
+.features h1{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  justify-self: center;
+  width: 449px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.features h2{
+  width: 220px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.features div{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+svg{
+  align-self: center;
+}
+
+@media (max-width: 1074px) {
+  .hero-1 {
+    margin-bottom: 500px;
   }
-  .content-wrap {
-    height: 590px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+}
 
-    h5 {
-      font-size: 17px;
-      font-weight: 700;
-      width: 156px;
-      text-align: center;
-    }
-
-    h6 {
-      font-weight: 400;
-      font-size: 17px;
-    }
-    a {
-      color: #000000;
-      font-weight: 700;
-      font-size: 17px;
-    }
-    .txt-wrap {
-      text-align: center;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 17px;
-    }
+@media (max-width: 1000px) {
+  .art-wrap h1,
+  .art-wrap p {
+    font-size: 30px;
+  }
+  article div img {
+    width: 300px;
   }
 }
 
@@ -185,13 +322,29 @@ section {
   }
 
   section {
-    padding: 2px 50px;
+    padding: 100px 50px;
     flex-direction: column;
     height: auto;
+  }
 
-    img{
-      width: 500px;
-    }
+  section img {
+    width: 500px;
+  }
+  article div,
+  #spec {
+    flex-direction: column;
+    height: auto;
+    padding: 100px 0px 55px 0px;
+  }
+
+  .art-wrap {
+    padding-left: 30px;
+    align-self: flex-start;
+    text-align: start;
+    justify-content: start;
+  }
+  .art-wrap-2 {
+    align-items: start;
   }
 }
 
@@ -200,60 +353,71 @@ section {
     padding: 27px 25px;
   }
 
-  .hero-1 {
-    h2 {
-      font-size: 25px;
-    }
-    .p-wrap {
-      p {
-        width: 500px;
-        font-size: 15px;
-      }
-    }
+  .hero-1 h2 {
+    font-size: 25px;
+  }
+
+  .hero-1 .p-wrap p {
+    width: 500px;
+    font-size: 15px;
   }
 }
-
+@media (max-width:685px) {
+  .wrap{
+    margin-top: 1200px;
+  }
+}
 @media (max-width: 661px) {
   header nav .a-wrap {
     display: none;
   }
+
   .ham-menu {
     display: block;
   }
+
   header {
     padding: 27px 20px;
   }
 
-  section {
-    .shop-now {
-      gap: 10px;
-    }
-    h1 {
-      font-size: 40px;
-    }
-    p {
-      font-size: 20px;
-    }
-    button {
-      font-size: 15px;
-    }
+  section .shop-now {
+    gap: 10px;
+  }
 
-    img{
-      width: 300px;
-    }
+  section h1 {
+    font-size: 40px;
+  }
+
+  section p {
+    font-size: 20px;
+  }
+
+  section button {
+    font-size: 15px;
+  }
+
+  section img {
+    width: 300px;
   }
 
   .hero-1 {
     gap: 30px;
-    h2 {
-      font-size:15px;
-    }
-    .p-wrap {
-      gap: 20px;
-      p {
-        width: 300px;
-        font-size: 12px;
-      }
-    }
+  }
+
+  .hero-1 h2 {
+    font-size: 15px;
+  }
+
+  .hero-1 .p-wrap {
+    gap: 20px;
+  }
+
+  .hero-1 .p-wrap p {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  article .art-wrap{
+    width: 300px;
   }
 }
