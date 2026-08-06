@@ -19,5 +19,11 @@ number - იგივე integer ციფრები: 0123456789
 
 string - '' ნებისმიერი ტიპის ტესქსტი (ციფრებიც)
 
-boolean True და False */
+boolean True და False 
+
+bigint გიგანტი რიცხვები
+
+undefined არ არსებობს
+
+null არაფერი*/
 
