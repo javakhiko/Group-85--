@@ -132,8 +132,6 @@ const calculatePrice = function(price, discount) {
 }
 
 console.log(calculatePrice(100, 20))
-console.log(calculatePrice(100, 50))
-console.log(calculatePrice(100, -10))
 
 
 // 8)შექმენი validatePassword multi-line Arrow Function-ის გამოყენებით.
@@ -150,11 +148,7 @@ console.log(calculatePrice(100, -10))
 // "Weak password" — სხვა შემთხვევაში
 
 const validatePassword = password => {
-  const hasLength = password.length >= 8
-  const hasAt = password.includes("@")
-  const startsWithUppercase = password[0] === password[0].toUpperCase()
-
-  if (hasLength && hasAt && startsWithUppercase) {
+  if (password.length >= 8 && password.includes("@") && password[0] === password[0].toUpperCase()) {
     return "Strong password"
   } else {
     return "Weak password"
@@ -163,8 +157,7 @@ const validatePassword = password => {
 
 console.log(validatePassword("Password@123"))
 console.log(validatePassword("password123"))
-console.log(validatePassword("Pass@12"))
-
+console.log(validatePassword("Pass@12"))  
 
 // 9)შექმენი validateUser multi-line Arrow Function-ის სახით.
 
@@ -187,18 +180,12 @@ console.log(validatePassword("Pass@12"))
 // "User is invalid"
 
 const validateUser = (username, age, password) => {
-  const validUsername = username !== ""
-  const validAge = age >= 18
-  const validPassword = password.length >= 8
-
-  if (validUsername && validAge && validPassword) {
+  if (username !== "" && age >= 18 && password.length >= 8) {
     return "User is valid"
   } else {
     return "User is invalid"
   }
 }
 
-console.log(validateUser("Goga", 20, "password123"))
-console.log(validateUser("", 20, "password123"))
-console.log(validateUser("Goga", 15, "password123"))
-console.log(validateUser("Goga", 20, "pass"))
+console.log(validateUser("Andria", 20, "password123"))
+console.log(validateUser("", 20, "password123"))  
