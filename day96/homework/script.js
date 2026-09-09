@@ -31,6 +31,14 @@ console.log(numbers)
 // მეორე ელემენტი გაზარდე 5-ით
 // ბოლოს დაბეჭდე მასივი
 
+let numbers2 = [15, 8, 42, 8, 31, 42, 19, 8]
+
+numbers2[1] = 80
+numbers2[2] = 420
+numbers2[7] = 800
+numbers2[1] *= 5
+console.log(numbers2)
+
 // 3)let fruits = ["apple", "banana", "orange", "kiwi", "mango", "peach"];
 
 // შექმენი ცვლადი:
@@ -56,7 +64,7 @@ fruits[index] = "watermelon"
 
 console.log(fruits[index])
 
-console.log(fruits)
+console.log(fruits) 
 
 // 4)შექმენი სახელების სია ,ასევე შექმენი ცვლადი სადაც მომხმარებელს შემოატანინებ რაიმე რიცხვს(დაგჭირდებათ შემოტანილი მნშვენლობის რიცხვად გარდაქმნა) და გამოიტანეთ ამ რიცხვზე მდგომი ელემენტი კონსოლში
 
