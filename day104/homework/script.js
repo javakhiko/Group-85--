@@ -93,7 +93,7 @@ if (hero > monster) {
 
 // ეს შეტყობინება ჩვეულებრივ კატეგორიასთან ერთად უნდა გამოვიდეს.
 
-let speed = Math.floor(Math.random() * 81) + 40;
+let speed = Math.floor(Math.random() * 41) + 80;
 
 console.log("სიჩქარე:", speed);
 
